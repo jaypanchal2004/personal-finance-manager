@@ -1,0 +1,14 @@
+// Mixin for border-radius
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+           border-radius: $radius;
+  }
+  
+  // Mixin for flexbox centering
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

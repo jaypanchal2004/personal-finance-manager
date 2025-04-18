@@ -1,0 +1,14 @@
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $space-lg;
+  }
+  
+  .dashboard-card {
+    @include flex-center;
+    background-color: $primary-color;
+    padding: $space-md;
+    color: white;
+    border-radius: 8px;
+  }
+  

@@ -1,0 +1,23 @@
+// Button Styles
+.btn-primary {
+    background-color: $primary-color;
+    color: white;
+    padding: $space-sm $space-md;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+  
+  // Card Styles
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: $space-md;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

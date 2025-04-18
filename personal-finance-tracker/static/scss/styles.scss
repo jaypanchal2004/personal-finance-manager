@@ -1,0 +1,10 @@
+// Import other SCSS partials
+@import 'variables';
+@import 'mixins';
+@import 'components';
+
+// Base styles
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
